@@ -1,0 +1,195 @@
+/* Global definitions of styles */
+body {
+    background-color: #CAE8D5;
+    color: #204051;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    color: #3B6978;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    margin: 15px 0 0 0;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h2.subhead {
+    margin: 0 0 15px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-text {
+    color: #CAE8D5;
+    background-color: #3B6978;
+    font-weight: bold;
+}
+
+hr {
+    height: 0px;
+    border-style:dotted;
+    color: #204051;
+    border-width: 6px 0px 0px 0px;
+    width: 8%;
+    }
+
+/* Container area for content sections: Top */
+.top-container {
+position: relative;
+padding-top: 100px;
+}
+
+.top-cloud {
+    position:absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.mountain {
+
+}
+
+.bottom-cloud {
+    position:absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+/* Container area for content sections: Middle */
+.middle-container {
+    width: 75%;
+    margin:0 auto 50px; 
+}
+
+.profile {
+    position:relative;
+    width: 50%;
+    margin: 0 auto;
+}
+.profile-dp, .profile-drum {
+    position: relative;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 80%;
+}
+.profile-dp {
+left: 25px;
+z-index: 1;
+}
+.profile-drum {
+    right: 25px;
+}
+.experience {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.experience > p, .profile > p {
+    text-align: left;
+}
+
+p {
+    line-height: 1.5; 
+}
+
+.my-experience {
+    height: 40px;
+    padding: 5px 5px 0;
+}
+
+.skills {
+    width: 50%;
+    margin: 33px auto 0;
+}
+.skill-row {
+    text-align: left;
+    margin: 35px 0 35px;
+    clear: both;
+}
+.skill-row-l {
+    text-align: right;
+    margin: 35px 0 35px;
+    clear: both;
+}
+.skill-icon {
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.skill-icon-l {
+    height: 70px;
+    float: right;
+    margin-left: 20px;
+}
+
+h3.skill-title {
+margin: 0;
+}
+.contact-us-btn {
+    margin: 40px;
+}
+.btn {
+    background: #204051;
+    background-image: -webkit-linear-gradient(top, #204051, #3B6978);
+    background-image: -moz-linear-gradient(top, #204051, #3B6978);
+    background-image: -ms-linear-gradient(top, #204051, #3B6978);
+    background-image: -o-linear-gradient(top, #204051, #3B6978);
+    background-image: linear-gradient(to bottom, #204051, #3B6978);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3B6978;
+    background-image: -webkit-linear-gradient(top, #3B6978, #84A9AC);
+    background-image: -moz-linear-gradient(top, #3B6978, #84A9AC);
+    background-image: -ms-linear-gradient(top, #3B6978, #84A9AC);
+    background-image: -o-linear-gradient(top, #3B6978, #84A9AC);
+    background-image: linear-gradient(to bottom, #3B6978, #84A9AC);
+    text-decoration: none;
+  }
+
+/* Container area for content sections: Bottom */
+.bottom-container {
+  background-color: #204051;
+  width: 100%;
+  height: 100px;
+  padding: 20px 0;
+}
+
+.bottom-container > p {
+    
+}
+
+.footer-link  {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+a:active.footer-link, a:visited.footer-link  {
+    color: #84A9AC;
+}
+a:hover.footer-link  {
+    color: #CAE8D5;
+}
+.copyright {
+    color: #CAE8D5;
+    font-size: .75rem;
+}
